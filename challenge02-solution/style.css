@@ -25,26 +25,18 @@ body {
 
 /* full-width */
 .container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.intro {
   background: #23424a;
   color: white;
   padding-block: 50px;
 }
 
-/* full-width limited to max width + padding */
 .intro-content {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 900px;
-  padding-inline: 1rem;
-}
-
-.intro-content > * {
   width: 50%;
-}
-
-body > *:not(.container) {
-  width: 80%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0.5em 1rem;
 }
