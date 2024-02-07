@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -50,6 +52,11 @@ body {
   text-transform: uppercase;
 
   cursor: pointer;
+}
+
+.hero__cta:hover,
+.hero__cta:focus {
+  opacity: 0.75;
 }
 
 /* 148 top */
